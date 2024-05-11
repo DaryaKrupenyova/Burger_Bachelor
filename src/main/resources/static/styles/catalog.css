@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px 169px 10px;
+}
+
+.namespace {
+    display: flex; 
+    justify-content: center;
+}
+.namespace h1 {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.product {
+background: #fff;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #F0542C;
+    border-radius: 30px;
+    text-align: center;
+}
+.cart {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.create-order {
+    margin-top: 30px;
+}
+.create-order a {
+    text-decoration: none;
+    background: #F0542C;
+    color: #fff;
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cart a:hover {
+    background: #F0542C;
+}
+#cart-items {
+    margin-top: 20px;
+    list-style: none;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    color: #fff;
+}
+.quantity-controls {
+    margin-left: 20px;
+}
+.quantity-controls button {
+    background: #F0542C;
+    color: #fff;
+    border: none;
+    font-size: medium;
+    padding: 1px 6px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 7px;
+}
+
+.product button {
+    margin-top: 20px;
+    background: #F0542C;
+    color: #fff;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background: #F0542C;
+}
+#productName {
+    margin-bottom: 20px;
+}
+
+p {
+    color: #F0542C;
+}
+
+h2 {
+    color: #F0542C;
+}
